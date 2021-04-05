@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  /*color: rgb(187, 144, 2);*/
+
+
+  background: #ff4b1f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1fddff,gold);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1fddff, gold); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 7px;
+  width: 80%;
+  border-color: gold;
+}
+table {
+  width: 50%;
+}
+
+td {
+  text-align: center;
+}
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration:none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color:goldenrod;
+}
