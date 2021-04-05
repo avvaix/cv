@@ -1,38 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Me</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Me</title>
 </head>
+
 <body>
-  <h3>Contact Me :</h3>
-        <hr>
-        <table>
+    <h3>Contact Me :</h3>
+    <hr>
+    <table align="CENTER">
+        <tr>
+            <td >Name :</td>
+            <td>Muhammad Awais</td>
+        </tr>
+        <tr>
+            <td>E-mail address :</td>
+            <td>avvaix@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Address :</td>
+            <td>House #1 Bashir Ahmed Street, Allah Ditta Colony, Rawalpindi. </td>
+        </tr>
+    </table>
+    <hr>
+    <table cellspacing="20" align="center">
+    <form action="mailto:avvaix@gmail.com" method="POST" enctype="text/plain">
+        
             <tr>
-                <td>Name :</td>
-                <td>Muhammad Awais</td>
+                <th><label for="">Your Name :</label></th>
+                <td><input type="text" name="yourName"></td>
             </tr>
             <tr>
-                <td>E-mail address :</td>
-                <td>avvaix@gmail.com</td>
+                <th><label for="">Your E-mail :</label></th>
+                <td><input type="email" name="yourEmail"></td>
             </tr>
             <tr>
-                <td>Address :</td>
-                <td>Some random address, Random City</td>
+                <th><label for="">Your Message :</label></th>
+                <td><textarea name="yourMessage" id="" cols="30" rows="10"></textarea></td>
             </tr>
+            <tr>
+                <td colspan="2"><input type="submit"></td>
+            </tr>
+           
+
+            
         </table>
-        <hr>
-        <form action="mailto:avvaix@gmail.com" method="POST" enctype="text/plain">
-            <label for="">Your Name :</label>
-            <input type="text" name="yourName"> <br>
-            <label for="">Your E-mail :</label>
-            <input type="email" name="yourEmail"> <br>
-            <label for="">Your Message :</label> <br>
-            <textarea name="yourMessage" id="" cols="30" rows="10"></textarea> <br>
-            <input type="submit">
-        </form>
+    </form>
 
 </body>
+
 </html>
